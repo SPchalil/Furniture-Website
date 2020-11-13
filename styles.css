@@ -1,18 +1,276 @@
 body {
     background-color: rgb(227, 238, 240);
-    margin: 0;
-    text-align: center;
+    margin-top: 0 ;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;    
 }
+ 
 
 h1{
     color: white;
-    width:10%;
-    margin: 0 auto 0 auto;
+    text-align: center;
+    
+    position: absolute;
+    top: 411px;
+    right: 320px;
+    
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: brightness(50%);
+}
+h2{
+    text-align: center; 
+}
+p{
+    text-align: center; 
+    font: 10px Arial, sans-serif;
+}
+.second-container{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 150px;
+}
+.unique-sofas{
+    position:absolute;
+    top: 1020px;
+    left:100px;
+    width: 50px;
+    height: 50px;
+    filter: brightness(100%);
+}
+.unique-tables{
+    position:absolute;
+    top: 1020px;
+    left:300px;
+    width: 50px;
+    height: 50px;
+    filter: brightness(100%);
+}
+.unique-chairs{
+    position:absolute;
+    top: 1020px;
+    left:550px;
+    width: 50px;
+    height: 50px;
+    filter: brightness(100%);
+}
+.unique-mugs{
+    position:absolute;
+    top: 1020px;
+    left:750px;
+    width: 50px;
+    height: 50px;
+    filter: brightness(100%);
+}
+
+.mug1{
+    
+    width: 25%;
+    height: 50%; 
+    filter: brightness(90%);
+    position:absolute;
+    left:75px;
 
 }
-.top-image{
-    margin: 0 0 0 0;
-    height: 200px;
+.mug2{
     
-    
+    width: 25%;
+    height: 50%; 
+    filter: brightness(90%);
+    position:absolute;
+    top:1520px;
+    left:75px;
+
 }
+.chair2{
+    
+    width: 25%;
+    height: 80%; 
+    filter: brightness(90%);
+    position:absolute;
+    top:1780px;
+    left:75px;
+
+}
+.table1{
+    
+    width: 25%;
+    height: 110%; 
+    filter: brightness(90%);
+    position:absolute;
+    
+    left:337px;
+
+}
+.mug3{
+    
+    width: 25%;
+    height: 50%; 
+    filter: brightness(92%);
+    position:absolute;
+    right:75px;
+    top: 1260px;
+
+}
+.chair3{
+    
+    width: 25%;
+    height: 80%; 
+    filter: brightness(92%);
+    position:absolute;
+    right:75px;
+    top:1520px;
+
+}
+.sofa{
+    
+    width:54%;
+    height:50%; 
+    filter: brightness(92%);
+    position:absolute;
+    right:75px;
+    top:1910px;
+
+}
+
+.text{
+
+    text-align: center;
+    color: rgb(117, 115, 115);
+    position:absolute;
+    top:1800px;
+    left: 380px;
+}
+
+
+.third-container{
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    height: 300px;
+    position:absolute;
+    top:2200px;
+}
+.para4{
+    position:absolute;
+    top:120px;
+    left:250px;
+    color: white;
+    text-align: center;
+    font: 14px Arial, serif;
+}
+h2{
+    text-align: center; 
+}
+p{
+    text-align: center; 
+    font: 10px Arial, sans-serif;
+}
+.fourth-container{
+    position:absolute;
+    top: 2550px;
+    left: 200px;
+    text-align: center; 
+
+}
+
+.living{
+    position:absolute;  
+    left:75px; 
+    top: 2700px;
+    height: 35%;
+    width: 25%;
+    filter: brightness(95%);
+
+}
+
+.dining{
+    position:absolute;  
+    left:338px; 
+    top: 2700px;
+    height: 35%;
+    width: 25%;
+    filter: brightness(95%);
+
+}
+.lounging{
+    position:absolute;  
+    right:75px; 
+    top: 2700px;
+    height: 35%;
+    width: 25%;
+    filter: brightness(95%);
+
+}
+.box1{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    position:absolute; 
+    top: 2825px;
+    left: 80px;
+    text-emphasis-color: white;
+
+}
+.box2{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    position:absolute; 
+    top: 2825px;
+    left: 345px;
+
+}
+
+.box3{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    position:absolute; 
+    top: 2825px;
+    left: 605px;
+
+}
+
+.box11{
+    position:absolute;  
+    left:75px; 
+    top: 2854px;
+    height: 30%;
+    width: 25%;
+    background-color: white;
+
+}
+
+.box22{
+    position:absolute;  
+    left:338px; 
+    top: 2854px;
+    height: 30%;
+    width: 25%;
+    background-color: white;
+
+}
+
+.box33{
+    position:absolute;  
+    right:75px; 
+    top: 2854px;
+    height: 30%;
+    width: 25%;
+    background-color: white;
+
+}
+
+.contactBox{
+    position:absolute;
+    left:50px; 
+    top: 2700px;
+    text-align: left;
+    height: 100%;
+    width: 70%;
+    }
