@@ -9,9 +9,10 @@ body {
 .hero-section{
     height: 100vh;
     background-image: url("Images/hero.jpg");
+    filter: brightness(50%);
     background-position: center;
     background-size: cover;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,20 +23,15 @@ body {
     text-align: center;
 }
 
-img {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    filter: brightness(50%);
-}
-h2{
+.furniture-heading{
     text-align: center; 
 }
-p{
+.furniture-description{
     text-align: center; 
     font: 10px Arial, sans-serif;
 }
-.second-container{
+
+.black-container1{
     background-color: rgb(32, 32, 32);
     width: 100%;
     height: 150px;
