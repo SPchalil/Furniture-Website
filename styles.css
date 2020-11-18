@@ -3,13 +3,17 @@ body {
     margin-top: 0 ;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0;    
+    margin-bottom: 0; 
+   
+    text-align: center;  
 }
  
+/* ================================================================================ */
 .hero-section{
     height: 100vh;
     background-image: url("Images/hero.jpg");
-    filter: brightness(50%);
+    background-blend-mode: darken;
+    
     background-position: center;
     background-size: cover;
     
@@ -21,20 +25,24 @@ body {
 .hero-heading{
     color: white;
     text-align: center;
+    font-size: 60px;
 }
 
-.furniture-heading{
-    text-align: center; 
+/* ================================================================================ */
+
+.furniture-heading1{
+    font-size: 20px;
 }
-.furniture-description{
-    text-align: center; 
-    font: 10px Arial, sans-serif;
+.furniture-description1{
+    font-size: 15px;
 }
+
+/* ================================================================================ */
 
 .black-container1{
     background-color: rgb(32, 32, 32);
     width: 100%;
-    height: 150px;
+    height: 200px;
 
     display: flex;
     flex-flow: row wrap;
@@ -66,209 +74,291 @@ body {
     filter: brightness(100%);
 }
 
+/* ================================================================================ */
+
+.furniture-heading2{
+    font-size: 20px;
+}
+.furniture-description2{
+    font-size: 15px;
+}
+
+/* ================================================================================ */
+
+/*Furniture Images Section*/
+.furniture-margin{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+.furniture-imagesCol1{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:flex-start;
+    
+
+}
 .mug1{
     
     width: 25%;
-    height: 50%; 
+    
     filter: brightness(90%);
-    position:absolute;
-    left:75px;
+    
 
 }
 .mug2{
     
     width: 25%;
-    height: 50%; 
+     
     filter: brightness(90%);
-    position:absolute;
-    top:1520px;
-    left:75px;
-
+    
 }
 .chair2{
     
     width: 25%;
-    height: 80%; 
+     
     filter: brightness(90%);
-    position:absolute;
-    top:1780px;
-    left:75px;
-
+    
+}
+.furniture-imagesCol2{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;   
 }
 .table1{
-    
     width: 25%;
-    height: 110%; 
-    filter: brightness(90%);
-    position:absolute;
-    
-    left:337px;
-
-}
-.mug3{
-    
-    width: 25%;
-    height: 50%; 
-    filter: brightness(92%);
-    position:absolute;
-    right:75px;
-    top: 1260px;
-
-}
-.chair3{
-    
-    width: 25%;
-    height: 80%; 
-    filter: brightness(92%);
-    position:absolute;
-    right:75px;
-    top:1520px;
-
-}
-.sofa{
-    
-    width:54%;
-    height:50%; 
-    filter: brightness(92%);
-    position:absolute;
-    right:75px;
-    top:1910px;
-
+     
+    filter: brightness(90%);  
 }
 
 .text{
-
+    width: 25%;
     text-align: center;
-    color: rgb(117, 115, 115);
-    position:absolute;
-    top:1800px;
-    left: 380px;
+    color: rgb(117, 115, 115); 
 }
 
+.furniture-imagesCol3{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;   
+}
+.mug3{
+    width: 25%;
+     
+    
+}
+.chair3{
+    width: 25%;
+}
+.sofa{
+    width: 25%; 
+}
 
-.third-container{
+/* ================================================================================ */
+
+.black-container2{
     background-color: rgb(32, 32, 32);
     width: 100%;
     height: 300px;
-    position:absolute;
-    top:2200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.para4{
-    position:absolute;
-    top:120px;
-    left:250px;
+.george-text{
     color: white;
     text-align: center;
-    font: 14px Arial, serif;
-}
-h2{
-    text-align: center; 
-}
-p{
-    text-align: center; 
-    font: 10px Arial, sans-serif;
-}
-.fourth-container{
-    position:absolute;
-    top: 2550px;
-    left: 200px;
-    text-align: center; 
-
+    font: 20px Arial, serif;
 }
 
-.living{
-    position:absolute;  
-    left:75px; 
-    top: 2700px;
-    height: 35%;
-    width: 25%;
-    filter: brightness(95%);
+/* ================================================================================ */
 
+.furniture-heading3{
+    font-size: 20px;
 }
 
-.dining{
-    position:absolute;  
-    left:338px; 
-    top: 2700px;
-    height: 35%;
-    width: 25%;
-    filter: brightness(95%);
-
-}
-.lounging{
-    position:absolute;  
-    right:75px; 
-    top: 2700px;
-    height: 35%;
-    width: 25%;
-    filter: brightness(95%);
-
-}
-.box1{
-    background-color: black;
-    height: 20px;
-    width: 70px;
-    position:absolute; 
-    top: 2825px;
-    left: 80px;
-    text-emphasis-color: white;
-
-}
-.box2{
-    background-color: black;
-    height: 20px;
-    width: 70px;
-    position:absolute; 
-    top: 2825px;
-    left: 345px;
-
+.furniture-description3{
+    font-size: 15px;
 }
 
-.box3{
-    background-color: black;
-    height: 20px;
-    width: 70px;
-    position:absolute; 
-    top: 2825px;
-    left: 605px;
+/* ================================================================================ */
 
+.photo-margin{
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 100px;
 }
 
-.box11{
-    position:absolute;  
-    left:75px; 
-    top: 2854px;
-    height: 30%;
-    width: 25%;
-    background-color: white;
-
+.column-image1 {
+    width: 100%;
+    
+    
 }
-
-.box22{
-    position:absolute;  
-    left:338px; 
-    top: 2854px;
-    height: 30%;
-    width: 25%;
-    background-color: white;
-
+.column-image2 {
+    max-width:100%;
+    
+    object-fit: fit;
+    
+    
 }
-
-.box33{
-    position:absolute;  
-    right:75px; 
-    top: 2854px;
-    height: 30%;
-    width: 25%;
-    background-color: white;
-
+.column-image3 {
+    max-width:100%;
+    
+    object-fit: fit;
+    
 }
-
-.contactBox{
-    position:absolute;
-    left:50px; 
-    top: 2700px;
+.column {
+    
+    margin: 10px;
+    max-width: 33.3%;
     text-align: left;
-    height: 100%;
-    width: 70%;
-    }
+    background-color: #ffffff;
+}
+#text-wrapper {
+    padding: 15px;
+}
+
+.blackBox1{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    margin-left: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blackBox2{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    margin-left: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blackBox3{
+    background-color: black;
+    height: 20px;
+    width: 70px;
+    margin-left: 5px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.boxText1{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.boxText2{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.boxText3{
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+
+/* ================================================================================ */
+
+/* -------------Form section---------------------*/
+
+.form-section {
+    
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content:center;
+    
+    align-items: left;
+
+}
+
+.contact{
+   
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:left;
+   
+
+}
+
+.contact-heading{
+    margin-top: 0em;
+    text-align: left;
+    color: black;
+    font-size: 40px;
+
+}
+.contact-para{
+    text-align: left;
+
+}
+.contact-details{
+    text-align: left;
+
+}
+
+.inputForms {
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 10px;
+    font-weight: 100;
+    box-shadow: none;
+    border: none;
+    padding: 0px 15px 0px;
+}
+.inputForms4 {
+    background-color: #F7F7F7;
+    border-color: #F7F7F7;
+    width: 100%;
+    height: 150px;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 10px;
+    font-weight: 100;
+    box-shadow: none;
+    border: none;
+    padding: 0px 15px 0px;
+    
+}
+#formButton {
+    background-color: #391605;
+    color: white;
+    font-size: 1.2em;
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 25px;
+    font-family: inherit;
+    font-weight: 100;
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+/* ================================================================================ */
+
