@@ -50,22 +50,71 @@ body {
     height: 200px;
 
     display: flex;
+    flex-flow: row ;
+    justify-content: space-around;
+    align-items: center;
+}
+.unique1{
+    display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
 }
+.unique-text1{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.unique2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.unique-text2{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.unique3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.unique-text3{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+.unique4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.unique-text4{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+}
+
+
+
 .unique-sofas{
     width: 50px;
     height: 50px;
     margin: auto;
     filter: brightness(100%);
 }
+
 .unique-tables{
     width: 50px;
     height: 50px;
     margin: auto;
     filter: brightness(100%);
 }
+
 .unique-chairs{
     width: 50px;
     height: 50px;
@@ -154,11 +203,6 @@ body {
 
 
 
-
-
-
-
-
 /* ================================================================================ */
 
 .black-container2{
@@ -189,39 +233,52 @@ body {
 /* ================================================================================ */
 
 .photo-margin{
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 200px;
+    margin-top: 50px;
 }
 
-.column-image1 {
-    width: 100%;
-    
-    
-}
-.column-image2 {
-    max-width:100%;
-    
-    object-fit: fit;
-    
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
     
 }
-.column-image3 {
-    max-width:100%;
-    
-    object-fit: fit;
-    
+
+.grid1{
+    width:100%;
+    height: 242px;
+    background-image: url("Images/living.jpg");
+    background-position: center;
+    background-size: cover; 
 }
+.grid2{
+    width:100%;
+    height: 242px;
+    background-image: url("Images/dining.jpg");
+    background-position: center;
+    background-size: cover;   
+}
+.grid3{
+    width:100%;
+    height: 242px;
+    background-image: url("Images/lounging.jpg");
+    background-position: center;
+    background-size: cover;   
+}
+
 .column {
     
-    margin: 10px;
-    align-content: space-between;
-    max-width: 33.3%;
-    text-align: left;
-    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 #text-wrapper {
+    
+    text-align: left;
+    background-color: #ffffff;
     padding: 15px;
+    
 }
 
 .blackBox1{
@@ -229,11 +286,14 @@ body {
     height: 20px;
     width: 70px;
     margin-left: 5px;
+    
+    position: relative;
+    top: 210px;
+    
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;  
 }
 .blackBox2{
     background-color: black;
@@ -241,36 +301,40 @@ body {
     width: 70px;
     margin-left: 5px;
 
+    position: relative;
+    top: 210px;
+
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 .blackBox3{
     background-color: black;
     height: 20px;
     width: 70px;
     margin-left: 5px;
+
+    position: relative;
+    top: 210px;
     
 
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;       
 }
 .boxText1{
     color: white;
-    text-align: center;
+    
     font-size: 10px;
 }
 .boxText2{
     color: white;
-    text-align: center;
+    
     font-size: 10px;
 }
 .boxText3{
     color: white;
-    text-align: center;
+    
     font-size: 10px;
 }
 
@@ -278,29 +342,39 @@ body {
 
 /* -------------Form section---------------------*/
 
-.form-section {
+.form-margin {
     
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
 
-    display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    justify-content:center;
-    
-    align-items: left;
-
 }
 
+.form-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.form-grid1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+
+.form-grid2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+}
 .contact{
    
     display: flex;
     flex-direction: column;
     
     justify-content:left;
-   
-
+    align-items: left;
+    
 }
 
 .contact-heading{
@@ -312,12 +386,23 @@ body {
 }
 .contact-para{
     text-align: left;
+    font-size: 20px;
 
 }
 .contact-details{
     text-align: left;
+    font-size: 20px;
 
 }
+
+#form-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:left;
+    align-items: left;  
+}
+
 
 .inputForms {
     background-color: #F7F7F7;
@@ -327,7 +412,7 @@ body {
     font-size: 1.2em;
     margin-top: 25px;
     margin-right: 100px;
-    margin-left: 10px;
+    
     font-weight: 100;
     box-shadow: none;
     border: none;
@@ -341,11 +426,12 @@ body {
     font-size: 1.2em;
     margin-top: 25px;
     margin-right: 100px;
-    margin-left: 10px;
+    
     font-weight: 100;
     box-shadow: none;
     border: none;
     padding: 0px 15px 0px;
+   
     
 }
 #formButton {
