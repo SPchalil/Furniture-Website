@@ -35,25 +35,37 @@ body {
 
 /* ================================================================================ */
 
-.furniture-heading1{
-    font-size: 20px;
+.standard-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.furniture-description1{
-    font-size: 15px;
+
+.centered-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-heading{
+    font-size: 1.5em;
 }
 
 /* ================================================================================ */
 
-.black-container1{
+.black-version{
     background-color: rgb(32, 32, 32);
-    width: 100%;
-    height: 200px;
-
     display: flex;
     flex-flow: row ;
     justify-content: space-around;
     align-items: center;
 }
+
+
 .unique1{
     display: flex;
     flex-flow: row wrap;
