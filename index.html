@@ -5,6 +5,16 @@
         <title>furniture-website</title>
         <link rel="icon" href="favicon.ico">
         <link rel = "stylesheet" type="text/css" href="styles.css">
+
+        <script>
+          function validateForm() {
+            var x = document.forms["myForm"]["Your Name"].value;
+            if (x == "") {
+              alert("Name must be filled out");
+              return false;
+            }
+          }
+          </script>
         
     </head>
     <body>
@@ -174,11 +184,14 @@
         </div>
         <div class = "form-grid2">
           <div id="form-wrapper">
-            <form action="/action_page.php">
-              <input class="inputForms" type="text" name="Your Name" placeholder="Your Name" id="name-input">
-              <input class="inputForms" type="text" name="Your Email" placeholder="Your Email" id="email-input"><br>
-              <input class="inputForms" type="text" name="Your Title" placeholder="Your Title" id="title-input"><br>
-              <textarea rows="10"> Your comment</textarea>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+              
+              <input class="inputForm" type="text" name="Your Name" placeholder="  Your Name" id="name-input" required>
+              <input class="inputForm" type="text" name="Your Email" placeholder="  Your Email" id="email-input" >
+              
+              <input class="inputForm" type="text" name="Your Title" placeholder="  Your Title" id="title-input"> <br><br><br>
+              
+              <textarea class="inputForms comment" name="comment" form="usrform" placeholder="  Your Comment" id="comment-input" ></textarea><br> 
               <input id="formButton" type="submit" value="SEND MESSAGE">
             </form>
           </div>
