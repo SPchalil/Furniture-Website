@@ -2,20 +2,12 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>furniture-website</title>
+        <title>Furniture-website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
         <link rel="icon" href="favicon.ico">
         <link rel = "stylesheet" type="text/css" href="styles.css">
-
-        <script>
-          function validateForm() {
-            var x = document.forms["myForm"]["Your Name"].value;
-            if (x == "") {
-              alert("Name must be filled out");
-              return false;
-            }
-          }
-          </script>
-        
+   
     </head>
     <body>
 
@@ -186,18 +178,24 @@
           <div id="form-wrapper">
             <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
               
-              <input class="inputForm" type="text" name="Your Name" placeholder="  Your Name" id="name-input" required>
-              <input class="inputForm" type="text" name="Your Email" placeholder="  Your Email" id="email-input" >
+              <input class="inputForm" type="text" name="yourName" placeholder="  Your Name" id="name-input" required>
+              <input class="inputForm" type="text" name="yourEmail" placeholder="  Your Email" id="email-input" required>
               
-              <input class="inputForm" type="text" name="Your Title" placeholder="  Your Title" id="title-input"> <br><br><br>
+              <input class="inputForm" type="text" name="yourTitle" placeholder="  Your Title" id="title-input" required> <br><br><br>
               
               <textarea class="inputForms comment" name="comment" form="usrform" placeholder="  Your Comment" id="comment-input" ></textarea><br> 
-              <input id="formButton" type="submit" value="SEND MESSAGE">
+              <input id="formButton" type="submit" onclick="myFunction()" value="SEND MESSAGE">
             </form>
           </div>
         </div>
       </div>
     </section>
+
+    <script>
+      function myFunction() {
+        document.getElementById("myForm").submit();
+      }
+    </script>
     
     <section class = "bottom-container">
         <div class = "social-grid">
@@ -260,7 +258,9 @@
           </div>
       </div>
     </section>
-            
+     
+    
+
     <div style="margin-top:2000px"></div>
     </body>
 </html>
