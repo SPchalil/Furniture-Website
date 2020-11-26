@@ -10,7 +10,8 @@
    
     </head>
     <body>
-
+      <div class = "row">
+        
       <section class="hero-section">
         <div class = "svg">
           <svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112">
@@ -176,26 +177,21 @@
         </div>
         <div class = "form-grid2">
           <div id="form-wrapper">
-            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            <form name="myForm" action="mailto:swapna.p4@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
               
-              <input class="inputForm" type="text" name="yourName" placeholder="  Your Name" id="name-input" required>
-              <input class="inputForm" type="text" name="yourEmail" placeholder="  Your Email" id="email-input" required>
+              <input class="inputForm" type="text" name="yourName" placeholder="Your Name" id="name-input" required>
+              <input class="inputForm" type="text" name="yourEmail" placeholder="Your Email" id="email-input" required>
               
-              <input class="inputForm" type="text" name="yourTitle" placeholder="  Your Title" id="title-input" required> <br><br><br>
+              <input class="inputForm" type="text" name="yourTitle" placeholder="Your Title" id="title-input" required> <br><br><br>
               
-              <textarea class="inputForms comment" name="comment" form="usrform" placeholder="  Your Comment" id="comment-input" ></textarea><br> 
-              <input id="formButton" type="submit" onclick="myFunction()" value="SEND MESSAGE">
+              <textarea class="inputForms comment" name="comment" form="usrform" placeholder="Your Comment" id="comment-input" ></textarea><br> 
+              <input id="formButton" type="submit" value="SEND MESSAGE">
             </form>
           </div>
         </div>
       </div>
     </section>
-
-    <script>
-      function myFunction() {
-        document.getElementById("myForm").submit();
-      }
-    </script>
+    
     
     <section class = "bottom-container">
         <div class = "social-grid">
@@ -259,7 +255,7 @@
       </div>
     </section>
      
-    
+    </div>
 
     <div style="margin-top:2000px"></div>
     </body>

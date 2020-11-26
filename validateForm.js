@@ -6,12 +6,23 @@ function validateForm() {
     alert("Name must be filled out");
     return false;
   }
-  if (y == "") {
+  else if (y == "") {
     alert("Email must be filled out");
     return false;
   }
-  if (z == "") {
+  else if (z == "") {
     alert("Title must be filled out");
     return false;
   }
+  return true;
 }
+
+
+/*------------------------
+    onclick="myFunction()"
+    <script>
+      function myFunction() {
+        document.getElementById("myForm").submit();
+      }
+    </script>
+-----------------*/
