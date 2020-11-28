@@ -18,11 +18,3 @@ function validateForm() {
 }
 
 
-/*------------------------
-    onclick="myFunction()"
-    <script>
-      function myFunction() {
-        document.getElementById("myForm").submit();
-      }
-    </script>
------------------*/
