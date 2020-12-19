@@ -11,7 +11,8 @@ body {
     margin-right: 0;
     margin-bottom: 0; 
    
-    text-align: center;  
+    text-align: center; 
+    font-family: ‘Open Sans’, sans-serif;
 }
  
 /* ================================================================================ */
