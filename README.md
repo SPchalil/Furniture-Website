@@ -5,6 +5,8 @@
  A major project undertaken on my path towards learning web based software development. 
  
  ![furnitureWeb2](https://user-images.githubusercontent.com/74065235/111726716-69de4b00-884c-11eb-9b50-ea4a712b21ae.png)
+ 
+ ![furnitureWeb4](https://user-images.githubusercontent.com/74065235/111726930-d2c5c300-884c-11eb-95c4-b23ddaff4347.png)
 
 ### How to run
  
